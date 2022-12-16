@@ -1,0 +1,81 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  flex-wrap: wrap
+}
+
+.myForm{
+  justify-self: start;
+  display: grid;
+  border: 1px solid #F6F6F6;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.text_body{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*.gen_body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}*/
+
+/*.finish{*/
+/*  position: absolute;*/
+/*  height: 50px;*/
+/*  width: 50px;*/
+/*  background-color: #13c0c5;*/
+/*  top: 35px;*/
+/*  left: 450px;*/
+/*  right: 200px;*/
+/*  z-index: -1000;*/
+/*}*/
+/*.barrier{*/
+/*  position: absolute;*/
+/*  height: 50px;*/
+/*  width: 500px;*/
+/*  top: 250px;*/
+/*  left: 250px;*/
+/*  background-color: #541cc7;*/
+/*  z-index: -1000;*/
+/*}*/
+
+.displayInfo{
+  cursor: initial;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  z-index: 1000;
+}
+
+.Main{
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+/*.rocket{*/
+/*  position: absolute;*/
+/*  height: 0;*/
+/*  width: 0;*/
+/*  border-left: 25px solid transparent;*/
+/*  border-right: 25px solid transparent;*/
+/*  border-bottom: 45px solid #f95959;*/
+/*  bottom: 20px;*/
+/*  left: 450px;*/
+/*}*/
