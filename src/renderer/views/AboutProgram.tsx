@@ -11,7 +11,7 @@ export default function AboutProgram() {
         <Button> назад <RollbackOutlined/></Button>
       </Link>
       <Typography>
-        <Title>Инструкция</Title>
+        <Title>Справка</Title>
         <Paragraph>
           Программа реализует генетический алгоритм
         </Paragraph>
